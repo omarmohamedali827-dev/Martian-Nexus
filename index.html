@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Mars Geologic Map | Explore the Red Planet</title>
+  <meta name="description" content="An interactive geologic map of Mars: explore volcanoes, canyons, craters and ancient terrains.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500;700;900&family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="stars"></div>
+
+  <header class="navbar">
+    <a href="#home" class="logo"><span class="logo-dot"></span>MARS<strong>GEO</strong></a>
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#features">Features</a>
+      <a href="#eras">Geologic Eras</a>
+      <a href="#about">About</a>
+      <a href="map.html" class="nav-btn">Open Map</a>
+    </nav>
+  </header>
+
+  <main>
+    <!-- HERO -->
+    <section class="hero" id="home">
+      <div class="hero-text">
+        <p class="eyebrow">Interactive Geologic Atlas</p>
+        <h1>Discover the <span>Geology</span> of Mars</h1>
+        <p class="lead">
+          Explore volcanoes, canyons, impact basins and ancient river valleys
+          on a detailed geologic map of the Red Planet. Free and open to everyone.
+        </p>
+        <div class="hero-buttons">
+          <a href="map.html" class="btn btn-primary">Start Exploring</a>
+          <a href="#features" class="btn btn-ghost">Learn More</a>
+        </div>
+        <ul class="stats">
+          <li><strong>144.8M</strong><span>km² surface area</span></li>
+          <li><strong>21.9 km</strong><span>Olympus Mons height</span></li>
+          <li><strong>4,000 km</strong><span>Valles Marineris length</span></li>
+        </ul>
+      </div>
+
+      <div class="hero-visual">
+        <div class="planet">
+          <span class="crater c1"></span>
+          <span class="crater c2"></span>
+          <span class="crater c3"></span>
+          <span class="canyon"></span>
+        </div>
+        <div class="orbit"></div>
+      </div>
+    </section>
+
+    <!-- FEATURES -->
+    <section class="section" id="features">
+      <h2>What You Can Explore</h2>
+      <p class="section-sub">Everything you need to read the surface of Mars.</p>
+      <div class="cards">
+        <article class="card">
+          <div class="icon">🗺️</div>
+          <h3>Geologic Units</h3>
+          <p>Browse mapped rock units, colour-coded by origin and age.</p>
+        </article>
+        <article class="card">
+          <div class="icon">🌋</div>
+          <h3>Landforms</h3>
+          <p>Zoom into volcanoes, channels, craters, dunes and fault systems.</p>
+        </article>
+        <article class="card">
+          <div class="icon">🛰️</div>
+          <h3>Orbital Data</h3>
+          <p>Layer elevation and imagery from Mars orbiter missions.</p>
+        </article>
+        <article class="card">
+          <div class="icon">🔎</div>
+          <h3>Search &amp; Filter</h3>
+          <p>Find any feature by name, type or geologic period in seconds.</p>
+        </article>
+      </div>
+    </section>
+
+    <!-- ERAS -->
+    <section class="section" id="eras">
+      <h2>Three Great Martian Eras</h2>
+      <p class="section-sub">The map is organised by the planet's geologic time scale.</p>
+      <div class="timeline">
+        <div class="era noachian">
+          <h3>Noachian</h3>
+          <small>~4.1 – 3.7 billion years ago</small>
+          <p>Heavy bombardment, early valley networks and possible standing water.</p>
+        </div>
+        <div class="era hesperian">
+          <h3>Hesperian</h3>
+          <small>~3.7 – 3.0 billion years ago</small>
+          <p>Widespread volcanism, giant outflow channels and lava plains.</p>
+        </div>
+        <div class="era amazonian">
+          <h3>Amazonian</h3>
+          <small>~3.0 billion years ago – today</small>
+          <p>Cold, dry and dusty, with young volcanoes, ice and wind-shaped dunes.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="section cta" id="about">
+      <h2>Ready to land on Mars?</h2>
+      <p>No account needed. Open the map and start exploring now.</p>
+      <a href="map.html" class="btn btn-primary">Launch the Map</a>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2026 MarsGeo Project · Built for explorers of the Red Planet</p>
+  </footer>
+</body>
+</html>
